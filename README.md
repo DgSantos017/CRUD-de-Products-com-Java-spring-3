@@ -22,7 +22,7 @@ When accessing this link, click on the red-highlighted download button in the sc
 ### baseUrl -> http://localhost:8080
 
 
-- saveProduct -> POST /products
+#### saveProduct -> POST /products
  ### REQUEST
 ```
 {
@@ -32,6 +32,7 @@ When accessing this link, click on the red-highlighted download button in the sc
 }
 ```
 ### RESPONSE 
+```
 {
    "productId": "3ebcdc11-d9f2-4ddd-8b41-7b327bd6b294",
    "name": "PS6 Console",
@@ -40,8 +41,8 @@ When accessing this link, click on the red-highlighted download button in the sc
    "creationDate": "2023-09-24T12:16:09Z",
    "lastUpdateDate": "2023-09-24T12:16:09Z"
 }
-
-- getAllProducts -> GET /products
+```
+#### getAllProducts -> GET /products
 ### RESPONSE 
 ```
 [
@@ -71,7 +72,7 @@ When accessing this link, click on the red-highlighted download button in the sc
    }
 ]
 ```
-- getOneProduct -> GET /products/c5e943d9-d2c1-498a-8bcb-bc3f73557f01
+#### getOneProduct -> GET /products/c5e943d9-d2c1-498a-8bcb-bc3f73557f01
   ### REQUEST
 ```
 {
@@ -84,7 +85,7 @@ When accessing this link, click on the red-highlighted download button in the sc
 }
 ```
 
-- update -> PUT /products/c5e943d9-d2c1-498a-8bcb-bc3f73557f01
+#### update -> PUT /products/c5e943d9-d2c1-498a-8bcb-bc3f73557f01
   REQUEST
 ```
 {
