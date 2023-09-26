@@ -42,7 +42,7 @@ RESPONSE
 }
 
 - getAllProducts -> GET /products
-  
+```
 RESPONSE 
 [
    {
