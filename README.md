@@ -11,8 +11,9 @@
 ## Where can I access the endpoints?
 I have shared a workspace in Insomnia with all the endpoints. If you would like to access it, please click on the link below:
 
-https://github.com/DgSantos017/sistema-ead-microservice-service-registry/blob/master/requestsInsominia.json
-![image](https://github.com/DgSantos017/sistema-ead-microservice-auth-user/assets/62971277/acf5333d-4fea-4a6f-9171-2c8da442039f)
+https://github.com/DgSantos017/CRUD-de-Products-com-Java-spring-3/blob/master/requestsInsomnia.json
+![image](https://github.com/DgSantos017/CRUD-de-Products-com-Java-spring-3/assets/62971277/a0150577-1e36-4134-87b5-ff7f10439a9c)
+
 When accessing this link, click on the red-highlighted download button in the screenshot above, and if you have Insomnia installed on your machine, simply import it
 
 ## Requirements to Run Locally
