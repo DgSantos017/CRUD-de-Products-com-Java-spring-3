@@ -101,14 +101,6 @@ When accessing this link, click on the red-highlighted download button in the sc
 #### delete -> DELETE /products/c5e943d9-d2c1-498a-8bcb-bc3f73557f01
   RESPONSE 204 - NO CONTENT
 ```
-{
-   "productId": "c5e943d9-d2c1-498a-8bcb-bc3f73557f01",
-   "name": "Console Gamer",
-   "description": "Gamer editado",
-   "productType": "Electronics",
-   "creationDate": "2023-09-24T12:29:39Z",
-   "lastUpdateDate": "2023-09-24T12:29:39Z"
-}
 ```
 
 ## Stacks
