@@ -1,7 +1,5 @@
 # CRUD Products with Java and spring
 
-### baseUrl -> http://localhost:8080/
-
 # How to Run?
 - Fork and clone this repository
 - Download dependencies; if using IntelliJ, you can trigger Maven to handle this process automatically
@@ -19,6 +17,20 @@ When accessing this link, click on the red-highlighted download button in the sc
 ## Requirements to Run Locally
 - Java: Version 17 
 - PostgreSQL
+
+## API Rest features
+### baseUrl -> http://localhost:8080
+
+```
+- saveProduct -> POST /products
+```
+```
+{
+	"name": "PS6 Console",
+	"description": "console mó dahora pra jogar",
+	"productType": "Electronics"
+}
+```
 
 ## Stacks
 - Java 17
