@@ -23,7 +23,7 @@ When accessing this link, click on the red-highlighted download button in the sc
 
 
 - saveProduct -> POST /products
-  REQUEST
+ ### REQUEST
 ```
 {
 	"name": "PS6 Console",
@@ -31,7 +31,7 @@ When accessing this link, click on the red-highlighted download button in the sc
 	"productType": "Electronics"
 }
 ```
-RESPONSE 
+### RESPONSE 
 {
    "productId": "3ebcdc11-d9f2-4ddd-8b41-7b327bd6b294",
    "name": "PS6 Console",
@@ -42,8 +42,8 @@ RESPONSE
 }
 
 - getAllProducts -> GET /products
+### RESPONSE 
 ```
-RESPONSE 
 [
    {
       "productId": "3ebcdc11-d9f2-4ddd-8b41-7b327bd6b294",
@@ -70,9 +70,9 @@ RESPONSE
       "lastUpdateDate": "2023-09-24T12:29:39Z"
    }
 ]
-
+```
 - getOneProduct -> GET /products/c5e943d9-d2c1-498a-8bcb-bc3f73557f01
-  REQUEST
+  ### REQUEST
 ```
 {
    "productId": "c5e943d9-d2c1-498a-8bcb-bc3f73557f01",
