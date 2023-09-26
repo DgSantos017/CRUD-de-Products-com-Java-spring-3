@@ -73,7 +73,7 @@ When accessing this link, click on the red-highlighted download button in the sc
 ]
 ```
 #### getOneProduct -> GET /products/c5e943d9-d2c1-498a-8bcb-bc3f73557f01
-  ### REQUEST
+  ### RESPONSE
 ```
 {
    "productId": "c5e943d9-d2c1-498a-8bcb-bc3f73557f01",
@@ -86,7 +86,7 @@ When accessing this link, click on the red-highlighted download button in the sc
 ```
 
 #### update -> PUT /products/c5e943d9-d2c1-498a-8bcb-bc3f73557f01
-  REQUEST
+  RESPONSE
 ```
 {
    "productId": "c5e943d9-d2c1-498a-8bcb-bc3f73557f01",
